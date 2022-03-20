@@ -1,0 +1,974 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>First page</title>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <div id="modalWindow" class="modal">
+        <div class="modal-content">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="close">
+                    <img src="../img/cross.svg" alt="close">
+                </div>
+                <div class="pt-5">
+                    <img src="../img/smile.svg" alt="smile">
+                </div>
+                <div class="modal-text white-grad pb-3">
+                    <span>THANK YOU</span>
+                </div>
+                <div class="white-color">
+                    <span>You were successfully added to METASTORM project’s whitelist.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="bc-nav">
+            <div class="container">
+                <div class="nav-up-block d-flex align-items-center justify-content-between flex-wrap">
+                    <div class="nav-up-logo d-none_414px">
+                        <img src="../img/Rectangle.svg" alt="logo" class="logo">
+                    </div>
+                    <div class="nav-up-info d-flex align-items-center white-color d_none">
+                        <span class="nav-up d_none"><a href="#" class="white-color">Main</a></span>
+                        <span class="nav-up nav-up-item d_none"><a href="#about" class="white-color">About</a></span>
+                        <span class="nav-up nav-up-item d_none"><a href="#" class="white-color">Team</a></span>
+                    </div>
+                    <div class="nav-up__soc-network d-flex align-items-center">
+                        <a href=""><img src="../img/twiter.svg" alt="" class="twit bc-black br-5 d-none_414px"></a>
+                        <a href=""><img src="../img/telegram.svg" alt="" class="tel bc-black br-5 d-none_414px"></a>
+                        <a href=""><img src="../img/M.svg" alt="" class="M bc-black br-5 d-none_414px"></a>
+                        <a href=""><img src="../img/start.svg" alt="" class="start bc-black br-5 d-none_414px"></a>
+                    </div>
+                    <div class="nav-up-btn-block d-flex align-items-center d-none_414px">
+                        <div class="nav-up-btn br br-5 opacity-0_45 me-4 d-none_414px">
+                            <a id="modal" class="white-color d-none_375px">Connect Wallet</a>
+                        </div>
+                        <div class="nav-up-btn bc-brown br-5 opacity-0_45 d-none_414px">
+                            <a href="#" class="white-color d-none_375px">Private Sale</a>
+                        </div>
+                    </div>
+                </div>
+                <!--                    MOBILE                    -->
+                <div class="d-flex">
+                    <div class="mobile-logo mt-1 d-none_415">
+                        <img src="../img/mobile-logo.png" alt="">
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="nav-up-btn1_mobile d-none_415">
+                            <a id="modal" class="white-color nav-up-text_mob">Connect Wallet</a>
+                        </div>
+                        <div class="nav-up-btn2_mobile d-none_415">
+                            <a href="#" class="white-color nav-up-text_mob">Private Sale</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="nav-up-img_mob d-none_415">
+                                <a href=""><img src="../img/twiter.svg" alt="" class="m-twit_mob mb-1"></a>
+                            </div>
+                            <div class="nav-up-img_mob d-none_415">
+                                <a href=""><img src="../img/telegram.svg" alt="" class="m-tel_mob mb-1"></a>
+                            </div>
+                            <div class="nav-up-img_mob d-none_415">
+                                <a href=""><img src=../img/M.svg alt="" class="m-M_mob mb-1"></a>
+                            </div>
+                            <div class="nav-up-img_mob d-none_415">
+                                <a href=""><img src="../img/start.svg" alt="" class="m-start_mob mb-1"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                                              -->
+            </div>
+        </div>
+
+        <div class="container">
+            <!--            <div class="d-flex align-items-center white-color ms-4 ps-5 pt-2">-->
+            <!--                <span class="nav-up pe-5 d-none_750px"><a href="#" class="white-color">Main</a></span>-->
+            <!--                <span class="nav-up nav-up-item pe-5 d-none_750px"><a href="#about" class="white-color">About</a></span>-->
+            <!--                <span class="nav-up nav-up-item d-none_750px"><a href="#" class="white-color">Team</a></span>-->
+            <!--            </div>-->
+            <div class="nav-down-block">
+                <div class="pb-5">
+                    <img src="../img/metastorm.svg" alt="nav-down-logo" class="nav-down-logo">
+                </div>
+                <div class="d-flex flex-column gray">
+                    <div class="d-flex align-items-center">
+                        <img src="../img/scope.svg" alt="" class="pe-3">
+                        <span class="nav-down">THE BEST FIRST PERSON SHOOTER</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="../img/scope.svg" alt="" class="pe-3">
+                        <span class="nav-down">BUILT ON BLOCKCHAIN</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="../img/scope.svg" alt="" class="pe-3">
+                        <span class="nav-down">PLAY TO EARN IN VR</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="../img/scope.svg" alt="" class="pe-3">
+                        <span class="nav-down">METAVERSE</span>
+                    </div>
+                </div>
+
+                <div class="down-menu-btn d-flex flex-wrap align-items-center indent-bottom">
+                    <div class="d-flex align-items-center justify-content-center nav-btn-1 br-7 me-5 mt-5 pos-rel">
+                        <a href="#" class="nav-btn-text dark-gold z-index_1">DECK</a>
+                        <img src="../img/btn-bg.svg" alt="btn" class="br-7 btn-bg">
+                    </div>
+                    <div class="nav-btn-2 br-7 mt-5 d-flex align-items-center justify-content-center">
+                        <a href="" class="nav-btn-text gray">COMMUNITY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main">
+            <div class="container">
+                <div class="d-flex flex-wrap justify-content-center pb-5">
+                    <div class="d-flex flex-column pt-5">
+                        <div class="d-flex flex-wrap justify-content-evenly align-items-center">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="../img/play-to-earn.svg" alt="logo">
+                                <span class="main-varieties gold">PLAY TO EARN</span>
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="../img/nft-trading.svg" alt="logo">
+                                <span class="main-varieties gold">NFT TRADING</span>
+                            </div>
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="../img/free-to-play.svg" alt="logo">
+                                <span class="main-varieties gold">FREE TO PLAY</span>
+                            </div>
+                        </div>
+                        <div class="pt-4">
+                            <a href="https://www.youtube.com/" target="_blank"><img src="../img/youtube-video.svg"
+                                                                                    alt="video"
+                                                                                    class="youtube-video"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg_third" id="about">
+                <div class="container">
+                    <div class="third__block d-flex flex-column pb-5 mt-5">
+                        <div class="d-flex flex-column">
+                            <span class="main-text-1 white-grad">What is</span>
+                            <div class="pt-3">
+                                <img src="../img/metastorm_third_block.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="third__block__info d-flex flex-column pt-5">
+                            <div class="d-flex flex-column white-color ">
+                                <span>MetaStorm is a blockchain based RPG VR shooter with a huge collection of</span>
+                                <span>modern weapons that players can use to equip, level up, complete missions</span>
+                                <span>and earn tokens.</span>
+                            </div>
+                            <div class="d-flex flex-column white-color nav-up pt-3">
+                                <span>Each player has the opportunity to build battle cards, collect weapons and</span>
+                                <span>even steal unique tokens from other players</span>
+                            </div>
+                            <div class="d-flex flex-column white-color nav-up pt-3">
+                                <span>MetaStorm also works as the basis for developing your own FPS project with</span>
+                                <span>any ideas. And the reason for it is that MetaStorm includes many functions:</span>
+                                <span>weapons, projectiles, uniforms, characters, various game modes, etc.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bc_fourth">
+            <div class="container">
+                <div class="fourth__block">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="pb-4">
+                            <span class="main-text-1 white-grad fw-bold">NFT BOX</span>
+                        </div>
+                        <div class="d-flex flex-column align-items-center nav-up-item white-color pt-2 pb-5">
+                            <span>Several types of NFT BOXes will give players various advantages in the game,
+                                such as exclusive weapons and equipment, the ability to unlock</span>
+                            <span>specific skills (such as a missile strike, call for a helicopter, etc.),
+                                the ability to open new maps for battles, the ability to move to a new play tier</span>
+                            <span>with more strong rivals.</span>
+                        </div>
+                    </div>
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-indicators first-slider">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                        class="circle active d-flex justify-content-center align-items-center"
+                                        aria-current="true" aria-label="Slide 1">
+                                    <div class="small_circle"></div>
+                                </button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                        class="circle ms-4 d-flex justify-content-center align-items-center"
+                                        aria-label="Slide 2">
+                                    <div class="small_circle"></div>
+                                </button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                        class="circle ms-4 d-flex justify-content-center align-items-center"
+                                        aria-label="Slide 3">
+                                    <div class="small_circle"></div>
+                                </button>
+                            </div>
+
+                            <div class="carousel-item active">
+                                <div class="d-flex justify-content-center carousel__cases pb-5 mb-5">
+                                    <div class="d-flex flex-column">
+                                        <div class="pos-rel">
+                                            <img src="../img/case3_border.svg" alt="border">
+                                            <img src="../img/case3.svg" class="d-block w-100 case_1" alt="case1">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column case_indent">
+                                        <div class="fourth__block-slider pos-rel">
+                                            <img src="../img/case2_border.svg" alt="">
+                                            <img src="../img/case2.svg" class="d-block w-100 case_2" alt="case1">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <div class="fourth__block-slider pos-rel">
+                                            <img src="../img/case1_border.svg" alt="">
+                                            <img src="../img/case1.svg" class="d-block w-100 case_3" alt="case1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center carousel__cases pb-5 mb-5">
+                                    <div class="d-flex flex-column">
+                                        <div class="fourth__block-slider pos-rel">
+                                            <img src="../img/case3_border.svg" alt="border">
+                                            <img src="../img/case3.svg" class="d-block w-100 case_1" alt="case1">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column case_indent">
+                                        <div class="pos-rel">
+                                            <img src="../img/case2_border.svg" alt="">
+                                            <img src="../img/case2.svg" class="d-block w-100 case_2" alt="case1">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <div class="fourth__block-slider pos-rel">
+                                            <img src="../img/case1_border.svg" alt="">
+                                            <img src="../img/case1.svg" class="d-block w-100 case_3" alt="case1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center carousel__cases pb-5 mb-5">
+                                    <div class="d-flex flex-column">
+                                        <div class="fourth__block-slider pos-rel">
+                                            <img src="../img/case3_border.svg" alt="border">
+                                            <img src="../img/case3.svg" class="d-block w-100 case_1" alt="case1">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column case_indent">
+                                        <div class="fourth__block-slider pos-rel">
+                                            <img src="../img/case2_border.svg" alt="">
+                                            <img src="../img/case2.svg" class="d-block w-100 case_2" alt="case1">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <div class="pos-rel">
+                                            <img src="../img/case1_border.svg" alt="">
+                                            <img src="../img/case1.svg" class="d-block w-100 case_3" alt="case1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon slider__icon-1" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon slider__icon-1" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
+
+                    <div class="fifth-block d-flex flex-column justify-content-center align-items-center">
+                        <div class="fifth-block__title main-text-1 white-grad fw-bold">
+                            <span>NFT EQUIPMENTS</span>
+                        </div>
+
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <div class="carousel-indicators second-slider__btn d_none">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                            class="rectangle active d-flex justify-content-center align-items-center pos-rel"
+                                            aria-current="true" aria-label="Slide 1">
+                                        <div class="">
+                                            <img src="../img/b1.png" class="gun-btn" alt="">
+                                        </div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                            class="rectangle ms-3 d-flex justify-content-center align-items-center pos-rel"
+                                            aria-label="Slide 2">
+                                        <div>
+                                            <img src="../img/b2.png" class="gun-btn" alt="">
+                                        </div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                            class="rectangle ms-3 d-flex justify-content-center align-items-center pos-rel"
+                                            aria-label="Slide 3">
+                                        <div>
+                                            <img src="../img/b3.png" class="gun-btn" alt="">
+                                        </div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                            class="rectangle ms-3 d-flex justify-content-center align-items-center pos-rel"
+                                            aria-label="Slide 4">
+                                        <div>
+                                            <img src="../img/b4.png" class="gun-btn" alt="">
+                                        </div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                                            class="rectangle ms-3 d-flex justify-content-center align-items-center pos-rel"
+                                            aria-label="Slide 5">
+                                        <div>
+                                            <img src="../img/b5.png" class="gun-btn" alt="">
+                                        </div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                                            class="rectangle ms-3 d-flex justify-content-center align-items-center pos-rel"
+                                            aria-label="Slide 6">
+                                        <div>
+                                            <img src="../img/b6.png" class="gun-btn" alt="">
+                                        </div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                                            class="rectangle ms-3 d-flex justify-content-center align-items-center pos-rel"
+                                            aria-label="Slide 7">
+                                        <div>
+                                            <img src="../img/b7.png" class="gun-btn" alt="">
+                                        </div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                                            class="rectangle ms-3 d-flex justify-content-center align-items-center pos-rel"
+                                            aria-label="Slide 8">
+                                        <div>
+                                            <img src="../img/b8.png" class="gun-btn" alt="">
+                                        </div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+                                            class="rectangle ms-3 d-flex justify-content-center align-items-center pos-rel"
+                                            aria-label="Slide 9">
+                                        <div>
+                                            <img src="../img/b9.png" class="gun-btn" alt="">
+                                        </div>
+                                    </button>
+                                </div>
+                                <!--                                                                               -->
+                                <div class="carousel-indicators first-slider d-none_415">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                            class="circle active d-flex justify-content-center align-items-center"
+                                            aria-current="true" aria-label="Slide 1">
+                                        <div class="small_circle"></div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                            class="circle d-flex justify-content-center align-items-center"
+                                            aria-label="Slide 2">
+                                        <div class="small_circle"></div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                            class="circle d-flex justify-content-center align-items-center"
+                                            aria-label="Slide 3">
+                                        <div class="small_circle"></div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                                            class="circle d-flex justify-content-center align-items-center"
+                                            aria-label="Slide 4">
+                                        <div class="small_circle"></div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                                            class="circle d-flex justify-content-center align-items-center"
+                                            aria-label="Slide 5">
+                                        <div class="small_circle"></div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                                            class="circle ms-1 d-flex justify-content-center align-items-center"
+                                            aria-label="Slide 6">
+                                        <div class="small_circle"></div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
+                                            class="circle d-flex justify-content-center align-items-center"
+                                            aria-label="Slide 7">
+                                        <div class="small_circle"></div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
+                                            class="circle d-flex justify-content-center align-items-center"
+                                            aria-label="Slide 8">
+                                        <div class="small_circle"></div>
+                                    </button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8"
+                                            class="circle d-flex justify-content-center align-items-center"
+                                            aria-label="Slide 9">
+                                        <div class="small_circle"></div>
+                                    </button>
+                                </div>
+
+
+                                <div class="carousel-item active carousel-item__indent">
+                                    <div class="pos-rel">
+                                        <img src="../img/bc-gun.svg" alt="background">
+                                        <img src="../img/b1.png" class="d-block w-100 gun gun-1" alt="gun">
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item__indent">
+                                    <div class="pos-rel">
+                                        <img src="../img/bc-gun.svg" alt="background">
+                                        <img src="../img/b2.png" class="d-block w-100 gun" alt="gun">
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item__indent">
+                                    <div class="pos-rel">
+                                        <img src="../img/bc-gun.svg" alt="background">
+                                        <img src="../img/b3.png" class="d-block w-100 gun" alt="gun">
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item__indent">
+                                    <div class="pos-rel">
+                                        <img src="../img/bc-gun.svg" alt="background">
+                                        <img src="../img/b4.png" class="d-block w-100 gun" alt="gun">
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item__indent">
+                                    <div class="pos-rel">
+                                        <img src="../img/bc-gun.svg" alt="background">
+                                        <img src="../img/b5.png" class="d-block w-100 gun" alt="gun">
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item__indent">
+                                    <div class="pos-rel">
+                                        <img src="../img/bc-gun.svg" alt="background">
+                                        <img src="../img/b6.png" class="d-block w-100 gun" alt="gun">
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item__indent">
+                                    <div class="pos-rel">
+                                        <img src="../img/bc-gun.svg" alt="background">
+                                        <img src="../img/b7.png" class="d-block w-100 gun" alt="gun">
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item__indent">
+                                    <div class="pos-rel">
+                                        <img src="../img/bc-gun.svg" alt="background">
+                                        <img src="../img/b8.png" class="d-block w-100 gun" alt="gun">
+                                    </div>
+                                </div>
+                                <div class="carousel-item carousel-item__indent">
+                                    <div class="pos-rel">
+                                        <img src="../img/bc-gun.svg" alt="background">
+                                        <img src="../img/b9.png" class="d-block w-100 gun gun-1" alt="gun">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Следующий</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sixth-block">
+            <!--            <div class="sixth-block__smoke-left">-->
+            <!--                <img src="../img/smoke-left.svg" class="w-100" alt="">-->
+            <!--            </div>-->
+            <!--            <div class="sixth-block__smoke-right">-->
+            <!--                <img src="../img/smoke-right.svg" class="w-100" alt="">-->
+            <!--            </div>-->
+            <div class="container">
+                <div class="sixth-block__title d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <span class="d-flex main-text-1 white-grad fw-bold">Metaverse of MetaStorm</span>
+                    </div>
+                    <div class="d-flex flex-column align-items-center white-color pt-2 pb-5">
+                        <span>VR allows a player to become a part of the game world, get used to the role of his/her character and feel and</span>
+                        <span>understand the story of the game most deeply.</span>
+                    </div>
+
+                    <div class="sixth-block__youtube youtube__item">
+                        <img src="../img/youtube-video2.svg" class="" alt="img-youtube">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="seventh-block">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <span class="main-text-1 white-grad fw-bold pt-5">GAME CONCERT</span>
+                </div>
+                <div class="d-flex">
+                    <div class="d-flex flex-wrap">
+                        <div class="d-flex flex-column pt-5">
+                            <div class="d-flex flex-column white-color">
+                                <span>The game concept includes several game modes, one of the modes is to</span>
+                                <span>create your own map for play to earn tokens. Players can create their own</span>
+                                <span>cards and earn tokens when other players visit them.</span>
+                            </div>
+                            <div class="d-flex flex-column white-color pt-4">
+                                <span>Players can create guilds and fight each other in order to steal the lands.</span>
+                                <span>Guilds can build their houses, headquarters, etc.</span>
+                            </div>
+                            <div class="down-menu-btn d-flex flex-wrap align-items-center indent-bottom">
+                                <div class="d-flex align-items-center justify-content-center nav-btn-1 br-7 me-4 mt-5 pos-rel">
+                                    <a href="#" class="nav-btn-text dark-gold z-index_1">DECK</a>
+                                    <img src="../img/btn-bg.svg" alt="btn" class="br-7 btn-bg">
+                                </div>
+                                <div class="nav-btn-2 br-7 mt-5 d-flex align-items-center justify-content-center">
+                                    <a href="" class="nav-btn-text gray">COMMUNITY</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="seventh-block__second-column_wrapper">
+                            <div class="pos-rel pb-5">
+                                <div class="d-flex flex-column seventh-block__menu">
+                                    <div class="d-flex">
+                                        <img src="../img/little-scope.svg" class="scope pe-3" alt="scope">
+                                        <span class="seventh-block__menu-text">TEAM MODE</span>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="../img/little-scope.svg" class="scope pe-3" alt="scope">
+                                        <span class="seventh-block__menu-text">DEATHMATCH MODE</span>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="../img/little-scope.svg" class="scope pe-3" alt="scope">
+                                        <span class="seventh-block__menu-text">STORYLINE MODE</span>
+                                    </div>
+                                </div>
+                                <div class="seventh-block__menu__header">
+                                    <div class="seventh-block__menu__header-bc_1 d-flex justify-content-center">
+                                        <img src="../img/logo-title.svg" class="pe-2" alt="logo">
+                                        <span class="seventh-block__menu-title white-color">MODE PLAY</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pos-rel mt-3">
+                                <div class="d-flex flex-column seventh-block__menu">
+                                    <div class="d-flex">
+                                        <img src="../img/little-scope.svg" class="scope pe-3" alt="scope">
+                                        <div class="d-flex flex-column">
+                                            <span class="d-flex seventh-block__menu-text">Build your own map to play</span>
+                                            <span class="d-flex seventh-block__menu-text">and earn</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="seventh-block__menu__header">
+                                    <div class="seventh-block__menu__header-bc_2 d-flex justify-content-center">
+                                        <img src="../img/logo-title.svg" class="pe-2" alt="logo">
+                                        <span class="seventh-block__menu-title white-color">CUSTOM MAP</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="eight-bg">
+                <div class="container">
+                    <div class="eight-block d-flex flex-column">
+                        <div class="eight-block__title">
+                            <span class="main-text-1 white-grad fw-bold">TOKEN MODEL</span>
+                        </div>
+                        <div class="eight-block__jackpot d-flex align-items-center">
+                            <div class="pe-4">
+                                <img src="../img/eight-logo.svg" alt="logo">
+                            </div>
+                            <div class="d-flex flex-column">
+                                <span class="eight-block__jackpot-item">Token $MEST</span>
+                                <span class="white-color">Maximum supply = 500,000,000</span>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column">
+                            <div class="d-flex pb-2">
+                                <img src="../img/eight-star.svg" alt="star">
+                                <div class="d-flex flex-column white-color">
+                                    <span>Used to complete missions with rare drops of NFT</span>
+                                    <span>tokens.</span>
+                                </div>
+                            </div>
+                            <div class="d-flex pb-2">
+                                <img src="../img/eight-star.svg" alt="star">
+                                <span class="white-color">Conducting in-game events</span>
+                            </div>
+                            <div class="d-flex pb-3">
+                                <img src="../img/eight-star.svg" alt="star">
+                                <div class="d-flex flex-column white-color">
+                                    <span>Bet for receiving weekly rewards in the form of $MEST</span>
+                                    <span>and NFT tokens.</span>
+                                </div>
+                            </div>
+                            <div class="d-flex pb-2">
+                                <img src="../img/eight-star.svg" alt="star">
+                                <span class="white-color">Conducting major tournaments among guilds</span>
+                            </div>
+                            <div class="d-flex pb-2">
+                                <img src="../img/eight-star.svg" alt="star">
+                                <span class="white-color">Purchase of land in the metaverse or NFT token sets.</span>
+                            </div>
+                            <div class="d-flex pb-3">
+                                <img src="../img/eight-star.svg" alt="star">
+                                <div class="d-flex flex-column white-color">
+                                    <span>Makes it possible to receive rewards for the game to</span>
+                                    <span>open new cards</span>
+                                </div>
+                            </div>
+                            <div class="d-flex pb-2">
+                                <img src="../img/eight-star.svg" alt="star">
+                                <span class="white-color">Used in different game modes</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="../img/eight-star.svg" alt="star">
+                                <span class="white-color">Used to buy and upgrade weapons.</span>
+                            </div>
+                            <div class="d-none_415">
+                                <img src="../img/eight_coin.png" alt="coin">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ninth-bg d-none997">
+            <div class="container">
+                <div class="d-flex flex-column">
+                    <div class="d-flex justify-content-center pb-5 pt-5">
+                        <span class="main-text-1 white-grad fw-bold">ROADMAP</span>
+                    </div>
+
+                    <div class="ninth-block__menu d-flex justify-content-center align-items-end">
+                        <div class="ninth-block__first-list">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex flex-column pb-3">
+                                    <span class="ninth-block__list_item">— Conducting a marketing campaign</span>
+                                    <span class="ninth-block__list_item">to develop the community</span>
+                                </div>
+                                <div class="pb-3">
+                                    <span class="ninth-block__list_item">— Private Sale</span>
+                                </div>
+                                <div class="pb-3">
+                                    <span class="ninth-block__list_item">— Public Sale</span>
+                                </div>
+                                <div class="pb-3">
+                                    <span class="ninth-block__list_item">— MEST Token Listing</span>
+                                </div>
+                                <div>
+                                    <span class="ninth-block__list_item">— Pre-alpha Release</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="pb-3">
+                                <span class="ninth-block__list_item">— Early access to the Metaverse</span>
+                            </div>
+                            <div class="pb-3">
+                                <span class="ninth-block__list_item">— Full 3D models</span>
+                            </div>
+                            <div class="pb-3 d-flex flex-column">
+                                <span class="ninth-block__list_item">— Release of new NFT tokens: map,</span>
+                                <span class="ninth-block__list_item">weapon skin</span>
+                            </div>
+                            <div class="">
+                                <span class="ninth-block__list_item">— Weapon upgrade function</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ninth-block__line_block">
+                <div class="pos-rel">
+                    <div class="pos-rel">
+                        <div class="ninth-block__gold-circle1 gold-circle d-flex align-items-center justify-content-center">
+                            <div class="ninth-block__gold-dot"></div>
+                        </div>
+                        <div class="ninth-block__stick1 stick"></div>
+                    </div>
+                    <div class="ninth-block__circle-name1 circle-name">
+                        <span class="">Q1 2022</span>
+                    </div>
+                </div>
+
+                <div class="pos-rel">
+                    <div class="pos-rel">
+                        <div class="ninth-block__gold-circle2 gold-circle d-flex align-items-center justify-content-center">
+                            <div class="ninth-block__gold-dot"></div>
+                        </div>
+                        <div class="ninth-block__stick3 stick"></div>
+                    </div>
+                    <div class="ninth-block__circle-name2 circle-name">
+                        <span class="">Q2 - Q4 2021</span>
+                    </div>
+                </div>
+
+                <div class="pos-rel">
+                    <div class="pos-rel">
+                        <div class="ninth-block__silver-circle1 silver-circle d-flex align-items-center justify-content-center">
+                            <div class="ninth-block__silver-dot"></div>
+                        </div>
+                        <div class="ninth-block__stick2 stick"></div>
+                    </div>
+                    <div class="ninth-block__circle-name3 circle-name">
+                        <span class="">Q3 2022</span>
+                    </div>
+                </div>
+
+                <div class="pos-rel">
+                    <div class="pos-rel">
+                        <div class="ninth-block__silver-circle2 silver-circle d-flex align-items-center justify-content-center">
+                            <div class="ninth-block__silver-dot"></div>
+                        </div>
+                        <div class="ninth-block__stick4 stick"></div>
+                    </div>
+                    <div class="ninth-block__circle-name4 circle-name">
+                        <span class="">Q2 2022</span>
+                    </div>
+                </div>
+
+                <div class="pos-rel">
+                    <div class="pos-rel">
+                        <div class="ninth-block__silver-circle3 silver-circle d-flex align-items-center justify-content-center">
+                            <div class="ninth-block__silver-dot"></div>
+                        </div>
+                        <div class="ninth-block__stick5 stick"></div>
+                    </div>
+                    <div class="ninth-block__circle-name5 circle-name">
+                        <span class="">Q4 2022 (OCTOBER)</span>
+                    </div>
+                </div>
+
+                <div class="ninth-block__line_outer">
+                    <div class="ninth-block__line">
+                        <div class="ninth-block__line_inside">
+                            <div class="ninth-block__item1">
+                                <div class="ninth-block__dot-gold"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="ninth-block__menu d-flex justify-content-between pt-5">
+                    <div class="ninth-block__second-list pos-rel">
+                        <div class="ninth-block__second-list-item_first d-flex flex-column">
+                            <div class="d-flex flex-column pb-3">
+                                <span class="ninth-block__list_item">— Conclusion of commercial</span>
+                                <span class="ninth-block__list_item">agreements with strategic investors</span>
+                                <span class="ninth-block__list_item">and a development group</span>
+                            </div>
+                            <div class="pb-3 d-flex flex-column">
+                                <span class="ninth-block__list_item">— Development of marketing</span>
+                                <span class="ninth-block__list_item">materials for private investors</span>
+                            </div>
+                            <div class="pb-3">
+                                <span class="ninth-block__list_item">— Seed Sale</span>
+                            </div>
+                            <div class="pb-3">
+                                <span class="ninth-block__list_item">— Conclusion of new partnerships</span>
+                            </div>
+                            <div>
+                                <span class="ninth-block__list_item">— Website launch</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ninth-block__second-list-item_second d-flex flex-column">
+                        <div class="pb-3 d-flex flex-column">
+                            <span class="ninth-block__list_item">— Conclusion of commercial agreements with</span>
+                            <span class="ninth-block__list_item">strategic investors and a development group</span>
+                        </div>
+                        <div class="pb-3 d-flex flex-column">
+                            <span class="ninth-block__list_item">— Development of marketing materials for</span>
+                            <span class="ninth-block__list_item">private investors</span>
+                        </div>
+                        <div class="pb-3">
+                            <span class="ninth-block__list_item">— Seed Sale</span>
+                        </div>
+                        <div class="pb-3">
+                            <span class="ninth-block__list_item">— Conclusion of new partnerships</span>
+                        </div>
+                        <div class="">
+                            <span class="ninth-block__list_item">— Website launch</span>
+                        </div>
+                    </div>
+                    <div class="pos-rel">
+                        <div class="ninth-block__second-list-item_last d-flex flex-column">
+                            <div class="pb-3">
+                                <span class="ninth-block__list_item">— MetaStorm 1.0 version</span>
+                            </div>
+                            <div class="">
+                                <span class="ninth-block__list_item">— IOS & Android Application</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tenth-bg">
+            <div class="container">
+                <div class="tenth-block d-flex flex-column align-items-center justify-content-center">
+                    <div class="">
+                        <span class="main-text-1 white-grad fw-bold">TEAM</span>
+                    </div>
+                    <div class="tenth-block__info d-flex flex-column align-items-center white-color">
+                    <span>MetaStorm is a team of over 20 people who have a strong passion for both gaming and blockchain.
+                    Most of the team members have</span>
+                        <span>over 10 years of experience in the gaming industry, and the team also has a wide experience in the field of
+                    virtual development.</span>
+                        <span>Blockchain is about to revolutionize the gaming world and the MetaStorm team wants to make the most possible
+                    input into this industry.</span>
+                    </div>
+
+                    <div class="tenth-block__team-col d-flex flex-column align-items-center justify-content-center mb-1">
+                        <div class="tenth-block__team-row d-flex justify-content-center">
+                            <div class="tenth-block__team-item">
+                                <img src="../img/first-worker.svg" alt="">
+                            </div>
+                            <div class="tenth-block__team-item2 d-flex align-items-center justify-content-center">
+                                <img src="../img/ten-logo.svg" alt="" class="">
+                            </div>
+                            <div class="tenth-block__team-item">
+                                <img src="../img/second-worker.svg" alt="">
+                            </div>
+                            <div class="tenth-block__team-item2 d-flex align-items-center justify-content-center">
+                                <img src="../img/ten-logo.svg" alt="" class="">
+                            </div>
+                            <div class="tenth-block__team-item">
+                                <img src="../img/third-worker.svg" alt="">
+                            </div>
+                            <div class="tenth-block__team-item2 d-flex align-items-center justify-content-center">
+                                <img src="../img/ten-logo.svg" alt="" class="">
+                            </div>
+                        </div>
+                        <div class="tenth-block__team-row d-flex">
+                            <div class="tenth-block__team-item2 d-flex align-items-center justify-content-center">
+                                <img src="../img/ten-logo.svg" alt="" class="">
+                            </div>
+                            <div class="tenth-block__team-item">
+                                <img src="../img/fourth-worker.svg" alt="">
+                            </div>
+                            <div class="tenth-block__team-item2 d-flex align-items-center justify-content-center">
+                                <img src="../img/ten-logo.svg" alt="" class="">
+                            </div>
+                            <div class="tenth-block__team-item">
+                                <img src="../img/fifth-worker.svg" alt="">
+                            </div>
+                            <div class="tenth-block__team-item2 d-flex align-items-center justify-content-center">
+                                <img src="../img/ten-logo.svg" alt="" class="">
+                            </div>
+                            <div class="tenth-block__team-item">
+                                <img src="../img/sixth-worker.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center team-btn br-7 mt-5 pos-rel">
+                        <a href="#" class="team-btn-bc">
+                            <span class="nav-btn-text dark-gold">MEET OUR TEAM</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer">
+            <div class="eleventh-bg">
+                <div class="container">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                        <div class="eleventh-block__title">
+                            <span class="main-text-1 white-grad fw-bold">PARTNERS</span>
+                        </div>
+
+                        <div class="d-flex flex-column align-items-center flex-wrap">
+                            <div class="eleventh-block__row d-flex">
+                                <div class="eleventh-block__row__item"></div>
+                                <div class="eleventh-block__row__item"></div>
+                                <div class="eleventh-block__row__item"></div>
+                                <div class="eleventh-block__row__item"></div>
+                            </div>
+                            <div class="eleventh-block__row d-flex">
+                                <div class="eleventh-block__row__item"></div>
+                                <div class="eleventh-block__row__item"></div>
+                                <div class="eleventh-block__row__item"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="eleventh-block__contacts d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="d-flex">
+                            <span class="white-color">© 2021 MetaStorm. All rights reserved</span>
+                        </div>
+                        <div>
+                            <div class="eleventh-block__contacts__contact d-flex align-items-center">
+                                <a href="#" class="white-color pe-3">Contact Us</a>
+                                <a href="#"><img src="../img/twiter.svg" alt="" class="twit bc-black br-5"></a>
+                                <a href="#"><img src="../img/telegram.svg" alt="" class="tel bc-black br-5"></a>
+                                <a href="#"><img src="../img/M.svg" alt="" class="M bc-black br-5"></a>
+                                <a href="#"><img src="../img/start.svg" alt="" class="start bc-black br-5"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</div>
+
+<script src="../js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
